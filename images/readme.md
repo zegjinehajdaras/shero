@@ -1,0 +1,1 @@
+1- i ahve created a static website at first with only HTML AND CSS

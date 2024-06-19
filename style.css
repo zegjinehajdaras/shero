@@ -1,0 +1,187 @@
+/* //style top bar */
+body{
+    margin: 0;
+    padding: 0;
+}
+.search-bar{
+    background-color: whitesmoke;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+   
+}
+
+.search{
+margin-left: 350px;
+
+}
+.search input{
+    width: 450px;
+    height: 40px;
+    border-color: rgb(25, 25, 117);
+    border-right: none;
+    position: relative;
+}
+.search button{
+    height: 40px;
+    width: 50px;
+    background-color:rgb(25, 25, 117);
+    color: #fff;
+    position: absolute;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+
+}
+
+.topBar_list{
+    display: flex;
+   
+}
+.topBar_list li {
+justify-content: space-between;
+list-style-type: none;
+cursor: pointer;
+padding-left: 5rem;
+}
+
+/* header section */
+.header{
+  
+   
+   
+
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header_row{
+      width: 70%;
+     display: flex; 
+     justify-content: center;  
+     align-items: center;
+     margin: auto;
+     
+     
+}
+.logo{
+    font-size: larger;
+    color: rgb(7, 102, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+nav{
+    text-align: center;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar ul li {
+    list-style-type: none;
+    padding-left: 2rem;
+   
+}
+.nav-bar ul li a{
+    text-decoration: none;
+}
+
+.main_container{
+  /* text-align: center; */
+  width: 70%;
+ margin: auto;
+}
+
+.hero{
+    display: flex;
+   
+   
+    margin-top: 10px;
+/* align-items: center; */
+    
+}
+.right_images{
+flex-wrap: wrap;
+margin-left: 10px;
+/* margin-top: 10px; */
+/* justify-content: center; */
+/* text-align: center; */
+}
+.right_images img{
+    height: 250px;
+    width: 500px;
+}
+.categories{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+.categories_item h3{
+font-weight: normal
+}
+.categories_item button
+{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(79, 126, 202);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: whitesmoke;
+}
+.footer h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.carousel{
+    width: 70%;
+    margin: auto;
+  
+}
+.carousel_item{
+    display: flex;
+    padding-bottom: 20px;
+    position: relative;
+
+
+}
+.card{
+    background-color: #fff;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.card .price{
+color:rgb(79, 126, 202) ;
+font-weight: 700;
+}
+.pre-btn ,.next-btn { 
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+  top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+    cursor: pointer;
+    z-index: 1;
+
+}
+.pre-btn {
+    left: -20px;
+  }
+  
+  .next-btn {
+   right: -160px;
+  }
+  .pre-btn i, .next-btn i {
+    font-size: 2em; /* Adjust the size of the icons */
+}
